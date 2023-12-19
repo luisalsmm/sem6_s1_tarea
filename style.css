@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+    margin-bottom: 20px;
+}
+
+.sectionChooseUS {
+	/* background-color: blue; */
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+
+.containerItems {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+}
+
+.item {
+	border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    background-color: green;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 40px;
+}
